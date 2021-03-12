@@ -4,6 +4,11 @@
 // Food ->at given interval
 // Classes --> Snake, Cell, Board, Game
 // To represent a cell of display board.
+public enum CellType {
+    EMPTY,
+    FOOD,
+    SNAKE_NODE;
+}
 public class Cell {
  
     private final int row, col;
